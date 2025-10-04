@@ -83,4 +83,34 @@ Ensure these functions are correctly implemented and available in your libft dir
 
  - The array is statically allocated to 3,000,000 bytes. You can change this in the write_opening() function if needed.
 
- 
+ #### EXAMPLE
+
+Brainfuck Input (`example.bf`):
+
+```sh
+++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.
+```
+
+Run Translator:
+
+```sh
+./bf2c example.bf example.c
+```
+
+Compile and Run Output:
+
+```sh
+gcc example.c -o example
+./example
+```
+
+Output:
+
+```sh
+Hello World!
+```
+
+#### AUTHOR
+
+Project by mmiguelo.
+This project is part of a personal initiative to uncover the secret message behind the 42project ft_printf encrypted message
