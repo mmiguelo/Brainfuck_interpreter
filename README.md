@@ -1,10 +1,4 @@
-# Brainfuck_interpreter
-
-## PROJECT OVERVIEW
-
-This project is a Brainfuck-to-C translator, written in C. It takes a Brainfuck source file and converts it into an equivalent C source file that, when compiled, will execute the same logic as the original Brainfuck program.
-
-The goal is not to interpret Brainfuck directly at runtime, but rather to translate Brainfuck instructions into C, enabling you to compile the output into a native executable using any standard C compiler (e.g., gcc or clang).
+# Brainfuck_translator
 
 ## Table of Contents
 
@@ -17,6 +11,16 @@ The goal is not to interpret Brainfuck directly at runtime, but rather to transl
   - [EXAMPLE](#example)
   - [AUTHOR](#author)
 
+
+
+## PROJECT OVERVIEW
+
+This project is a Brainfuck-to-C translator, written in C. It takes a Brainfuck source file and converts it into an equivalent C source file that, when compiled, will execute the same logic as the original Brainfuck program.
+
+The goal is not to interpret Brainfuck directly at runtime, but rather to translate Brainfuck instructions into C, enabling you to compile the output into a native executable using any standard C compiler (e.g., gcc or clang).
+
+----
+<br>
 
 ### BASICS
 
@@ -45,6 +49,9 @@ block.
 
 - Loops may be nested as many times as you want. But all [ must have a corre-
 sponding ].
+
+----
+<br>
 
 #### USAGE
 
