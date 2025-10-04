@@ -33,3 +33,11 @@ block.
 
 - Loops may be nested as many times as you want. But all [ must have a corre-
 sponding ].
+
+#### USAGE
+
+To compile the translator:
+
+```sh
+make
+```
