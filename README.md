@@ -72,6 +72,8 @@ Where:
 `input.bf` is your Brainfuck source code file. <br>
 `output.c` is the name of the generated C file.
 
+📍 info: `input.bf` needs to exist, but `output.c` is created automatically<br>
+
 Then compile the generated C file:
 
 ```sh
