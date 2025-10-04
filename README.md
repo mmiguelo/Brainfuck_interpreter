@@ -41,3 +41,15 @@ To compile the translator:
 ```sh
 make
 ```
+
+To run the translator:
+
+```sh
+./bf2c input.bf output.c
+```
+
+Where:
+
+`input.bf` is your Brainfuck source code file. <br>
+`output.c` is the name of the generated C file.
+
