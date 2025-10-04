@@ -53,3 +53,34 @@ Where:
 `input.bf` is your Brainfuck source code file. <br>
 `output.c` is the name of the generated C file.
 
+Then compile the generated C file:
+
+```sh
+gcc output.c -o output
+```
+
+And finally run the compiled program:
+
+```sh
+./output
+```
+
+#### DEPENDENCIES
+
+This project uses a custom libft which must contain at least:
+
+`ft_printf()`
+`ft_printf_fd()`
+`get_next_line()`
+
+Ensure these functions are correctly implemented and available in your libft directory. You can use your own version of libft or adapt an existing one.
+
+#### LIMITATIONS
+
+ - This translator assumes valid Brainfuck code. It does not perform syntax checks such as matching brackets ([ and ]).
+
+ - Memory overflows are not checked. It is your responsibility to ensure your Brainfuck code does not exceed array boundaries.
+
+ - The array is statically allocated to 3,000,000 bytes. You can change this in the write_opening() function if needed.
+
+ 
