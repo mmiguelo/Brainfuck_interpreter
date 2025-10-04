@@ -1,5 +1,11 @@
 # Brainfuck_interpreter
 
+## PROJECT OVERVIEW
+
+This project is a Brainfuck-to-C translator, written in C. It takes a Brainfuck source file and converts it into an equivalent C source file that, when compiled, will execute the same logic as the original Brainfuck program.
+
+The goal is not to interpret Brainfuck directly at runtime, but rather to translate Brainfuck instructions into C, enabling you to compile the output into a native executable using any standard C compiler (e.g., gcc or clang).
+
 ### BASICS
 
 The idea behind `brainfuck` is memory manipulation. Basically you are given an array of 30,000 1byte memory blocks. The array size is actually dependent upon the implementation used in the compiler or interpretor, but standard brainfuck states 30,000. Within this array, you can increase the memory pointer, increase the value at the memory pointer, etc. Let me first present to you the 8 operators available to us.
