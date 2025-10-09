@@ -18,7 +18,8 @@
 
 NAME = libft.a
 CC = cc
-CFLAGS = -Wall -Werror -Wextra -g
+CFLAGS = -Wall -Werror -Wextra -g -fPIE
+
 RM = rm -f
 
 
